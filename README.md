@@ -1,34 +1,39 @@
-# acad-polyline-length-sum
+[🇷🇺 Русский](#русский) | [🇬🇧 English](#english)
 
+---
+
+## 🇷🇺 Русский
+
+### acad-polyline-length-sum
 LISP-скрипт для AutoCAD для подсчёта суммарной длины выбранных полилиний.
 
-## Возможности
+### Возможности
+* Считает суммарную длину всех выбранных полилиний.
+* Работает с несколькими объектами за один запуск команды.
+* Выводит результат в командную строку AutoCAD.
 
-- Считает суммарную длину всех выбранных полилиний.
-- Работает с несколькими объектами за один запуск команды.
-- Выводит результат в командную строку AutoCAD.
-
-## Установка
-
+### Установка
 1. Скачайте файл `TLEN.lsp` из этого репозитория.
 2. Откройте AutoCAD.
 3. Введите в командной строке команду `APPLOAD` и нажмите Enter.
 4. В открывшемся окне выберите файл `TLEN.lsp` и нажмите `Load` (Загрузить).
-5. Закройте окно загрузки.
+5. Закройте окно загрузки приложений.
 
-## Использование
+---
 
-1. Введите в командной строке AutoCAD команду `TLEN` (или ту команду, которую вы указали в LISP).
-2. Выберите полилинии, длину которых нужно просуммировать.
-3. Нажмите Enter.
-4. В командной строке отобразится суммарная длина выбранных объектов.
+## 🇬🇧 English
 
-## Требования
+### acad-polyline-length-sum
+A LISP script for AutoCAD to calculate the total length of selected polylines.
 
-- AutoCAD (проверено на версиях: при необходимости укажите свою версию).
-- Поддержка LISP (стандартная для полнофункциональных версий AutoCAD).
+### Features
+* Calculates the total length of all selected polylines.
+* Processes multiple objects in a single command execution.
+* Outputs the result to the AutoCAD command line.
 
-## Лицензия
-
-Вы можете свободно использовать и изменять этот скрипт для личных и рабочих задач. 
-Буду благодарен за упоминание автора при распространении или доработке.
+### Installation
+1. Download the `TLEN.lsp` file from this repository.
+2. Open AutoCAD.
+3. Type the `APPLOAD` command in the command line and press Enter.
+4. In the opened window, select the `TLEN.lsp` file and click `Load`.
+5. Close the Load/Unload Applications dialog box.
